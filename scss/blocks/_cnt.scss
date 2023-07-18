@@ -1,0 +1,84 @@
+.cnt {
+}
+.content__cnt {
+  display: flex;
+}
+.col-1__cnt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 117px;
+}
+.title__cnt {
+  color: $black;
+  font-family: $ff-main;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 17px;
+}
+.desc__cnt {
+  @include text($darkGrey, $ff-main, 16px, 400, 160%);
+}
+.main__cnt__img {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 389px;
+  max-height: 389px;
+  flex-shrink: 0;
+  margin-top: 113px;
+}
+.main__cnt {
+  display: flex;
+  flex-direction: column;
+}
+.title__main__cnt {
+  color: $black;
+  font-family: $ff-main;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 197px;
+  margin-bottom: 21px;
+}
+.desc__main__cnt {
+  @include text($darkGrey, $ff-main, 16px, 400, 160%);
+  margin-right: 88px;
+}
+.second__cnt__img {
+  display: flex;
+  margin-top: 113px;
+  flex-direction: row-reverse;
+}
+img {
+}
+.first__cnt {
+  justify-content: flex-end;
+}
+.last__cnt {
+}
+.c-1 {
+  margin-left: 39px;
+}
+.c-2 {
+  margin-top: 100px;
+}
+.c-3 {
+  margin-top: 39px;
+  margin-left: 26px;
+}
+.c-4 {
+  margin-top: 47px;
+}
+.c-5 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.img__1 {
+  border-radius: 500px 0px 500px 500px;
+  background-color: #fff;
+  background: #fff;
+}

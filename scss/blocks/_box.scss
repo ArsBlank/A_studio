@@ -1,0 +1,34 @@
+.box {
+  display: flex;
+  margin-top: 246px;
+}
+.text__box {
+}
+.title__box {
+  color: $black;
+  font-family: $ff-main;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 148px;
+}
+.desc__box {
+  @include text($darkGrey, $ff-main, 16px, 400, 160%);
+  margin-right: 8px;
+  margin-top: 17px;
+}
+.forms__box {
+  @include text($darkGrey, $ff-main, 16px, 400, 160%);
+  max-height: 80px;
+  border: 1px solid #f1f1f1;
+  border-radius: 60px;
+  outline: 0;
+  display: inline-flex;
+}
+.btn {
+}
+._primary {
+}
+.main-section__btn {
+}

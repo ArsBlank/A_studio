@@ -1,0 +1,28 @@
+.second-section {
+  display: flex;
+}
+.text {
+  align-items: flex-start;
+}
+.title {
+  color: $black;
+  font-family: $ff-main;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 17px;
+  margin-top: 40px;
+}
+.desc {
+  @include text($darkGrey, $ff-main, 16px, 400, 160%);
+  margin-bottom: 33px;
+  max-height: 58px;
+  max-width: 336px;
+}
+.logo {
+  gap: 60px;
+  margin-top: 106px;
+  display: flex;
+  margin-left: 60px;
+}
